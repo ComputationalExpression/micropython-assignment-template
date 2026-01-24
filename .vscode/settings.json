@@ -26,7 +26,7 @@
       "reportMissingModuleSource": "none"
   },
   "python.terminal.activateEnvironment": false,
-  "micropico.openOnStart": true,
+  "micropico.openOnStart": false,
   "python.analysis.typeshedPaths": [
       "~/.micropico-stubs/included"
   ],
@@ -34,5 +34,6 @@
       "~/.micropico-stubs/included"
   ],
   "micropico.gcBeforeUpload": true,
-  "micropico.softResetAfterUpload": true
+  "micropico.softResetAfterUpload": true,
+  "micropico.syncFolder": "src",
 }
