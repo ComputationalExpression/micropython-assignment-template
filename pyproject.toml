@@ -1,11 +1,12 @@
 [project]
-name = "the-doomsday-algorithm"
+name = "micropython-assignment-template"
 version = "1.0.0"
 requires-python= ">=3.10"
 dependencies = [
     "gatorgrade",
     "mypy>=1.19.1",
     "pytest",
+    "mpremote"
 ]
 
 [tool.pytest]
