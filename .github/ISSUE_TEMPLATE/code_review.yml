@@ -1,0 +1,64 @@
+name: Code Review
+description: A code review conducted with a Technical Leader (TL) or the course instructor.
+title: "Code Review"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please respond to the following questions about the project.
+  - type: checkboxes
+    attributes:
+      label: Functional requirements
+      description: Check each of the following satisfied functional requirements
+      options:
+        - label: "Code solves the issue presented"
+          required: True
+        - label: "Code functions, even if not fully solving the issue presented"
+          required: True
+        - label: "Performance of the code is acceptable"
+          required: True
+  - type: checkboxes
+    attributes:
+        label: Code style and legibility
+        description: Check each of the following checkboxes that describe code legibility
+        options:
+          - label: The code contains comments
+            required: True
+          - label: Variable names are accurate and appropriate
+            required: True
+          - label: The code is easy to read
+            required: True
+          - label: The code is formatted correctly
+            required: True
+  - type: markdown
+    attributes:
+      value: |
+         Conduct a short walkthrough with the programmer, marking the topics appropriately explained.
+  - type: checkboxes
+    attributes:
+        label: Code walkthrough
+        description: Check each of the following checkboxes that describe code legibility
+        options:
+          - label: The author understands the arithmetic operators used
+            required: True
+          - label: The author described the role of variables with adequate detail
+            required: True
+          - label: The author clearly connected the code to the problem presented in the assignment
+            required: True
+          - label: The author described their process well, communicating confidence and understanding of their own code
+            required: True
+  - type: textarea
+    attributes:
+        label: The Good, The Bad, The Ugly
+        description: Write a short note with at least 3 aspects done well, and 3 aspects on which the code could be improved
+        value: |
+          Positives
+          1. 
+          2.
+          3.
+          Improvements
+          1.
+          2.
+          3.
+    validations:
+        required: true
