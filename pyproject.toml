@@ -6,7 +6,8 @@ dependencies = [
     "gatorgrade",
     "mypy>=1.19.1",
     "pytest",
-    "mpremote"
+    "mpremote",
+    "micropython-rp2-pico-stubs"
 ]
 
 [tool.pytest]
