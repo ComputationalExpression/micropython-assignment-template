@@ -24,7 +24,7 @@ jobs:
         curl -LsSf https://astral.sh/uv/install.sh | sh
     - name: Grade repository
       run: |
-        uv run gatorgrade --config .gatorgrade.yml
+        uv run gatorgrade --config gatorgrade.yml
       if: always()
       env:
         PIPENV_VENV_IN_PROJECT: 1
