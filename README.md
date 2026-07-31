@@ -17,3 +17,17 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut iaculis turpis. 
 This assignment addresses the following course learning objective(s):
 
 1. `TODO`
+
+## Testing
+
+This assignment uses [mockro](https://pypi.org/project/mockro/) to mock MicroPython libraries (such as `machine`) so the code can be developed and tested on a normal computer without hardware.
+
+```bash
+uv run pytest
+```
+
+To run the program with mocks:
+
+```bash
+uv run mockro run src/main.py
+```

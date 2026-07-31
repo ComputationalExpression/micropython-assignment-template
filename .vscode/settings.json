@@ -28,10 +28,11 @@
   "python.terminal.activateEnvironment": false,
   "micropico.openOnStart": false,
   "python.analysis.typeshedPaths": [
-      "~/.micropico-stubs/included"
+      "stubs"
   ],
   "python.analysis.extraPaths": [
-      "~/.micropico-stubs/included"
+      "stubs",
+      "src"
   ],
   "micropico.gcBeforeUpload": true,
   "micropico.softResetAfterUpload": true,

@@ -1,4 +1,4 @@
-- description: "TODO: Write more checks"
+- description: "Run pytest with mockro mocks"
   check: ExecuteCommand
   options:
-    command: ls
+    command: uv run pytest

@@ -1,19 +1,26 @@
 [project]
 name = "micropython-assignment-template"
 version = "1.0.0"
-requires-python= ">=3.10"
+requires-python = ">=3.11"
 dependencies = [
     "gatorgrade",
     "mypy>=1.19.1",
     "pytest",
     "mpremote",
-    "micropython-rp2-pico-stubs"
+    "mockro"
 ]
 
-[tool.pytest]
+[tool.pytest.ini_options]
 pythonpath = [
     "src"
 ]
 testpaths = [
     "tests"
 ]
+filterwarnings = [
+    "ignore::pytest.PytestAssertRewriteWarning"
+]
+
+[tool.mypy]
+mypy_path = ["stubs", "src"]
+ignore_missing_imports = true
