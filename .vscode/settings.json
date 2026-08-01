@@ -27,11 +27,7 @@
   },
   "python.terminal.activateEnvironment": false,
   "micropico.openOnStart": false,
-  "python.analysis.typeshedPaths": [
-      "stubs"
-  ],
   "python.analysis.extraPaths": [
-      "stubs",
       "src"
   ],
   "micropico.gcBeforeUpload": true,
