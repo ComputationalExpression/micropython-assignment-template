@@ -22,5 +22,5 @@ filterwarnings = [
 ]
 
 [tool.mypy]
-mypy_path = ["src"]
+mypy_path = [".stubs", "src"]
 ignore_missing_imports = true

@@ -31,3 +31,5 @@ To run the program with mocks:
 ```bash
 uv run mockro run src/main.py
 ```
+
+Type stubs for the mocked MicroPython modules live in `.stubs/` (hidden from the VS Code file explorer) and are used by Pylance and mypy.

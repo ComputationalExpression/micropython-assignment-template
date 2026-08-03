@@ -8,6 +8,7 @@
   "chat.commandCenter.enabled": false,
   "files.exclude": {
     "**/.*": true,
+    ".stubs": true,
     "gatorgrade.yml": true
   },
   "[markdown]": {
@@ -26,7 +27,11 @@
       "reportMissingModuleSource": "none"
   },
   "python.terminal.activateEnvironment": false,
+  "python.analysis.typeshedPaths": [
+      ".stubs"
+  ],
   "python.analysis.extraPaths": [
+      ".stubs",
       "src"
   ],
   "mpremote.command": "uv run mpremote",
