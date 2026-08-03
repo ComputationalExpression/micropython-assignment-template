@@ -26,13 +26,9 @@
       "reportMissingModuleSource": "none"
   },
   "python.terminal.activateEnvironment": false,
-  "micropico.openOnStart": false,
   "python.analysis.extraPaths": [
       "src"
   ],
-  "micropico.gcBeforeUpload": true,
-  "micropico.softResetAfterUpload": true,
-  "micropico.syncFolder": "src",
   "mpremote.command": "uv run mpremote",
   "mpremote.srcSubdirectory": "src",
   "mpremote.serialPort.skip": "true"
